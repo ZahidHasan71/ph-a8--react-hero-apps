@@ -1,13 +1,19 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import Logo from '../../assets/logo.png'
+import { Link, NavLink } from 'react-router';
+
 
 const Navbar = () => {
-    const links = <>
-        <li><a className='font-semibold'>Home</a></li>
-        <li><a className='font-semibold'>Apps</a></li>
-        <li><a className='font-semibold'>Installation</a></li>
-    </>
+    const links = (
+        <>
+            <li><NavLink to="/" className="font-semibold">Home</NavLink></li>
+            <li><NavLink to="/appsPage" className="font-semibold">Apps</NavLink></li>
+            <li><NavLink to="/installation" className="font-semibold">Installation</NavLink></li>
+
+        </>
+    );
+
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -22,7 +28,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img src="" alt="" />
+                    <Link to="/" className="btn btn-ghost text-xl"><img src="" alt="" />
                         <img src={Logo} alt="" className='w-10' />
                         <span
                             className="font-bold"
@@ -35,7 +41,7 @@ const Navbar = () => {
                             HERO.IO
                         </span>
 
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

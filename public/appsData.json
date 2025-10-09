@@ -1,0 +1,398 @@
+[
+    {
+        "id": 1,
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "description": "Create stunning designs and social media graphics easily.",
+        "size": 35,
+        "reviews": 1800,
+        "ratingAvg": 4.8,
+        "downloads": "50K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 600
+            },
+            {
+                "name": "5 star",
+                "count": 870
+            }
+        ],
+        "image": "https://i.ibb.co.com/FkypvDfX/canva-logo-icon-168460.png"
+    },
+    {
+        "id": 2,
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "description": "Listen to millions of songs and podcasts for free.",
+        "size": "20M",
+        "reviews": 3200,
+        "ratingAvg": 4.7,
+        "downloads": "230M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 320
+            },
+            {
+                "name": "4 star",
+                "count": 800
+            },
+            {
+                "name": "5 star",
+                "count": 1820
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+    },
+    {
+        "id": 3,
+        "title": "Notion",
+        "companyName": "Notion Labs Inc.",
+        "description": "All-in-one workspace for notes, tasks, and projects.",
+        "size": 42,
+        "reviews": 1450,
+        "ratingAvg": 4.6,
+        "downloads": "21M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 180
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 740
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"
+    },
+    {
+        "id": 4,
+        "title": "WhatsApp",
+        "companyName": "Meta Platforms",
+        "description": "Fast, simple, and secure messaging app.",
+        "size": 30,
+        "reviews": 6500,
+        "ratingAvg": 4.4,
+        "downloads": "36M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 420
+            },
+            {
+                "name": "3 star",
+                "count": 780
+            },
+            {
+                "name": "4 star",
+                "count": 1900
+            },
+            {
+                "name": "5 star",
+                "count": 2900
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    },
+    {
+        "id": 5,
+        "title": "Instagram",
+        "companyName": "Meta Platforms",
+        "description": "Share photos and videos with friends and followers.",
+        "size": 45,
+        "reviews": 7200,
+        "ratingAvg": 4.5,
+        "downloads": "56M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 1000
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 3100
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+    },
+    {
+        "id": 6,
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications",
+        "description": "Video conferencing and team collaboration app.",
+        "size": 60,
+        "reviews": 2500,
+        "ratingAvg": 4.3,
+        "downloads": "19M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 220
+            },
+            {
+                "name": "2 star",
+                "count": 240
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 940
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg"
+    },
+    {
+        "id": 7,
+        "title": "TikTok",
+        "companyName": "ByteDance",
+        "description": "Create and share short videos with the world.",
+        "size": 55,
+        "reviews": 5400,
+        "ratingAvg": 4.4,
+        "downloads": "26M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 900
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 2700
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg"
+    },
+    {
+        "id": 8,
+        "title": "Snapseed",
+        "companyName": "Google LLC",
+        "description": "Professional photo editor with filters and tools.",
+        "size": 38,
+        "reviews": 1900,
+        "ratingAvg": 4.6,
+        "downloads": "12M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 240
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 980
+            }
+        ],
+        "image": "https://i.ibb.co.com/YFFTdsSs/150898221-10464234.png"
+    },
+    {
+        "id": 9,
+        "title": "Pinterest",
+        "companyName": "Pinterest Inc.",
+        "description": "Find and save creative ideas for your projects.",
+        "size": 34,
+        "reviews": 2700,
+        "ratingAvg": 4.7,
+        "downloads": "29M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 320
+            },
+            {
+                "name": "4 star",
+                "count": 800
+            },
+            {
+                "name": "5 star",
+                "count": 1290
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png"
+    },
+    {
+        "id": 10,
+        "title": "Trello",
+        "companyName": "Atlassian",
+        "description": "Organize projects and tasks visually with boards.",
+        "size": 28,
+        "reviews": 980,
+        "ratingAvg": 4.5,
+        "downloads": "6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 60
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 460
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Trello_logo.svg"
+    },
+    {
+        "id": 11,
+        "title": "Figma",
+        "companyName": "Figma Inc.",
+        "description": "Collaborative interface design and prototyping tool.",
+        "size": 48,
+        "reviews": 2100,
+        "ratingAvg": 4.8,
+        "downloads": "3M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 70
+            },
+            {
+                "name": "3 star",
+                "count": 160
+            },
+            {
+                "name": "4 star",
+                "count": 560
+            },
+            {
+                "name": "5 star",
+                "count": 1270
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+    },
+    {
+        "id": 12,
+        "title": "Google Keep",
+        "companyName": "Google LLC",
+        "description": "Quickly capture notes, lists, and reminders.",
+        "size": 24,
+        "reviews": 1100,
+        "ratingAvg": 4.4,
+        "downloads": "4M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 450
+            }
+        ],
+        "image": "https://i.ibb.co.com/HprNxzWy/Google-Keep-2020-Logo-svg.png"
+    }
+]
