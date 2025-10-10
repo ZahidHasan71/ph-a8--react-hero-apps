@@ -76,11 +76,20 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn" href="https://github.com/hero-io/hero.io" style={{
-                        background: 'linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1))',
-                        color: 'white'
-                    }}><FaGithub />Contribute</a>
+                    <a
+                        href="https://github.com/ZahidHasan71/ph-a8--react-hero-apps"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn flex items-center gap-2 text-white"
+                        style={{
+                            background: 'linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1))',
+                        }}
+                    >
+                        <FaGithub />
+                        Contribute
+                    </a>
                 </div>
+
             </div>
         </div>
     );
