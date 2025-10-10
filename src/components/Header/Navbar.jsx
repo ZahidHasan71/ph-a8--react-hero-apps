@@ -7,12 +7,39 @@ import { Link, NavLink } from 'react-router';
 const Navbar = () => {
     const links = (
         <>
-            <li><NavLink to="/" className="font-semibold">Home</NavLink></li>
-            <li><NavLink to="/appsPage" className="font-semibold">Apps</NavLink></li>
-            <li><NavLink to="/installation" className="font-semibold">Installation</NavLink></li>
-
+            <li>
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        isActive ? "font-semibold text-purple-600 underline" : "font-semibold"
+                    }
+                >
+                    Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="/appsPage"
+                    className={({ isActive }) =>
+                        isActive ? "font-semibold text-purple-600 underline" : "font-semibold"
+                    }
+                >
+                    Apps
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="/installation"
+                    className={({ isActive }) =>
+                        isActive ? "font-semibold text-purple-600 underline" : "font-semibold"
+                    }
+                >
+                    Installation
+                </NavLink>
+            </li>
         </>
     );
+
 
     return (
         <div>
@@ -28,7 +55,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <Link to="/" className="btn btn-ghost text-xl"><img src="" alt="" />
+                    <Link to="/" className="btn btn-ghost text-xl">
                         <img src={Logo} alt="" className='w-10' />
                         <span
                             className="font-bold"
